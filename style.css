@@ -1,0 +1,126 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background:#D6D3D3 
+}
+
+.box{
+    width: 100%;
+    
+    background: #D6D3D3;
+    margin: auto;
+    margin-top: 50px;
+ 
+    
+}
+
+.box .sm-logo img {
+    width: 90px;
+    height: 60px;
+    position: relative;
+    left: 22px;
+    top: 30px
+}
+.box .box1{
+    width: 300px;
+    height: 470px;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 15px 20px  rgb(100,100,100,0.2);
+    
+}
+.box .box1 .sm-logo  .top1{
+    position: relative;
+    left: 130px;
+    top: -60px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+.box .box1 .sm-logo{
+    width: 300px;
+    height: 470px;
+    margin: auto;
+}
+.box .box1 .sm-logo .logto{
+    color:#C80909;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 65px;
+    bottom: 65px;
+}
+.box .box1 .sm-logo .User-ID{
+    font-size: 13px;
+    position: relative;
+    left: 25px;
+    bottom:60px;
+}
+.box .box1 .sm-logo .Password{
+    font-size: 13px;
+    position: relative;
+    left: 25px;
+     bottom:55px;
+}
+.box .box1 .sm-logo input[type="text"],
+.box .box1 .sm-logo input[type="password"]{
+    padding: 8px 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #AFB6AF;
+    text-align:center;
+    position: relative;
+    left: 25px;
+}
+.box .box1 .sm-logo input{
+    
+    border-radius: 5px;
+    
+}
+.box .box1 .sm-logo input[type="text"]{
+    position: relative;
+    bottom:60px;
+}
+.box .box1 .sm-logo input[type="password"]{
+    position: relative;
+    bottom:55px;
+}
+.box .box1 .sm-logo input[type="submit"]{
+    padding: 10px 105px;
+    margin-left: 25px;
+    border: none;
+    border: 1px solid #AFB6AF;
+    background: #4695E9;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+}
+.box .box1 .sm-logo input[type="submit"]:hover{
+    background: #286090;
+    transition-delay: 0.1s;
+    transition-duration: .25s;
+}
+.box .box1 .sm-logo  .frgpass a{
+    text-decoration: none;
+    color:#FF0000;
+    font-size: 10px;
+    position: relative;
+    left: 95px;
+    bottom:  70px;
+}
+.box .box1 .sm-logo .dvp{
+    color: black;
+    font-size: 13px;
+    position: relative;
+    left: 70px;
+    top:  -70px;
+    
+}
+.box .box1 .sm-logo .ppimg{
+    position: relative;
+    left: 100px;
+    top: -80px;
+    width: 90px;
+    height: 30px;
+}
